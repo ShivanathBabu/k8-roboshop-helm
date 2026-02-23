@@ -1,0 +1,6 @@
+deployment:
+  imageURL: shivanathbabu/catalogue
+  imageVersion: v1
+hpa:
+  maxReplicas: 10
+  Utilization: 75
